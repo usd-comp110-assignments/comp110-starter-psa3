@@ -1,7 +1,7 @@
 """
 Module: hurricane_tracker
 
-Program to visualize the path of a Hurrican in the North Atlantic Basin.
+Program to visualize the path of a Hurricane in the North Atlantic Basin.
 
 Authors:
 1) Name - USD Email Address
@@ -25,6 +25,7 @@ def screen_setup():
     turtle.setup(965, 600)  # set size of window to size of map
 
     wn = turtle.Screen()
+    wn.tracer(0, 0)
     wn.title("Hurricane Tracker")
 
     # kludge to get the map shown as a background image,
