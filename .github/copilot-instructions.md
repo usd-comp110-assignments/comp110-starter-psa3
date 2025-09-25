@@ -1,6 +1,11 @@
 # Project Overview
 
-This project is a python program that draws a sampler quilt using the tkinter library.
+This project has two parts.
+
+1. Drawing the path taken by a hurricane
+2. Performing sentiment analysis for movie reviews.
+
+It is for an introductory computer science course (i.e. CS1) so the authors will have very limited programming experience. Avoid using any jargon a novice programmer would have difficulty understanding.
 
 # Requirements
 - Use Python's Turtle Graphics for the hurricane_tracker.py.
