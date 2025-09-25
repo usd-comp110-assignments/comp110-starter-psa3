@@ -8,12 +8,12 @@ Authors:
 2) Name - USD Email Address
 """
 
-def calculate_average_review(word, review_filename):
+def calculate_average_review(target_word, review_filename):
     """
     FIXME: Add function synopsis here.
 
     Parameters:
-    word (type: string): The word to look for in the reviews.
+    target_word (type: string): The word to look for in the reviews.
     FIXME: add info about second parameter
 
     Returns:
