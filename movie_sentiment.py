@@ -8,12 +8,12 @@ Authors:
 2) Name - USD Email Address
 """
 
-def average_review(word, review_filename):
+def calculate_average_review(target_word, review_filename):
     """
     FIXME: Add function synopsis here.
 
     Parameters:
-    word (type: string): The word to look for in the reviews.
+    target_word (type: string): The word to look for in the reviews.
     FIXME: add info about second parameter
 
     Returns:
@@ -22,9 +22,9 @@ def average_review(word, review_filename):
 
     review_file = open(review_filename, 'r')
 
-    for line in review_file:
+    for review in review_file:
         # make lower case to avoid case sensitivity
-        lower_line = line.lower()  
+        review_lower = review.lower()  
 
         # FIXME: finish implementing this loop body
 
@@ -37,7 +37,7 @@ def average_review(word, review_filename):
     return None     # replace this with returning the calculated average
 
 
-def estimate_review_score(movie_review, review_filename):
+def calculate_estimated_score(review_text, review_filename):
     """
     FIXME: Fill in this docstring comment, using the exact format given for the
     average_review docstring comment.
@@ -47,7 +47,7 @@ def estimate_review_score(movie_review, review_filename):
 
 
 
-def estimate_user_review():
+def get_review_and_estimate():
     """
     Asks user to enter a movie review, then the name of a file with existing
     movie reviews.
@@ -60,4 +60,4 @@ def estimate_user_review():
 
 # Do not modify anything after this point.
 if __name__ == "__main__":
-    estimate_user_review()
+    get_review_and_estimate()

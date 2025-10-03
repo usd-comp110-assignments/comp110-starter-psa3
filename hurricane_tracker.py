@@ -10,7 +10,7 @@ Authors:
 import turtle
 
 
-def screen_setup():
+def initialize_screen():
     """
     Creates the Turtle and the Screen with the map background
     and coordinate system set to match latitude and longitude.
@@ -49,21 +49,22 @@ def screen_setup():
 
 # Define the get_category function here
 
-def animate(csv_filename):
+def animate_hurricane(data_filename):
     """
     Animates the path of a hurricane.
 
     Parameters:
-    csv_filename (string): Name of file containing hurricane data (CSV format).
+    data_filename (string): Name of file containing hurricane data (CSV format).
     """
 
-    # screen_setup returns a list of three items: the turtle to draw with, the
+    # initialize_screen returns a list of three items: the turtle to draw with, the
     # screen object for the window, and the background image of the window.
     # We only care about the turtle though.
-    setup_data = screen_setup()
+    setup_data = initialize_screen()
 
-    # Give a name to the turtle that we were given back.
-    hurricane_turtle = setup_data[0]
+    # Give a name to the turtle that we were given back. We'll call it Noah,
+    # in honor of the NOAA (National Oceanic and Atmospheric Administration).
+    noah = setup_data[0]
 
 
     # Your code to perform the animation will go after this line.
@@ -77,4 +78,4 @@ def animate(csv_filename):
 # Do not modify anything after this point.
 if __name__ == "__main__":
     filename = input("Enter the name of the hurricane data file: ")
-    animate(filename)
+    animate_hurricane(filename)
