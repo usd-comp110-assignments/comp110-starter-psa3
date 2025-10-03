@@ -25,7 +25,6 @@ def screen_setup():
     turtle.setup(965, 600)  # set size of window to size of map
 
     wn = turtle.Screen()
-    wn.tracer(0, 0)
     wn.title("Hurricane Tracker")
 
     # kludge to get the map shown as a background image,
