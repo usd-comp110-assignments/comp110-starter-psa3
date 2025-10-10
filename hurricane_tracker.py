@@ -5,7 +5,6 @@ Program to visualize the path of a Hurricane in the North Atlantic Basin.
 
 Authors:
 1) Name - USD Email Address
-2) Name - USD Email Address
 """
 import turtle
 
@@ -47,7 +46,7 @@ def initialize_screen():
     return [t, wn, map_bg_img]
 
 
-# Define the get_category function here
+# Define the calculate_category function here
 
 def animate_hurricane(data_filename):
     """
