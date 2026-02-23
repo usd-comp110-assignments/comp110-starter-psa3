@@ -33,15 +33,15 @@ def initialize_screen():
     # set the coordinate system to match lat/long
     turtle.setworldcoordinates(-90, 0, -17.66, 45)
 
-    map_bg_img = tkinter.PhotoImage(file="atlantic-basin.gif")
+    map_bg_img = tkinter.PhotoImage(file="hurricane_images/atlantic-basin.gif")
 
     # additional kludge for positioning the background image
     # when setworldcoordinates is used
     canvas.create_image(-1175, -580, anchor=tkinter.NW, image=map_bg_img)
 
     t = turtle.Turtle()
-    wn.register_shape("hurricane.gif")
-    t.shape("hurricane.gif")
+    wn.register_shape("hurricane_images/hurricane.gif")
+    t.shape("hurricane_images/hurricane.gif")
 
     return [t, wn, map_bg_img]
 
