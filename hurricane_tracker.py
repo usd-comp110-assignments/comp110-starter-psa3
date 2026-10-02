@@ -10,12 +10,11 @@ import turtle
 
 
 def initialize_screen():
-    """
-    Creates the Turtle and the Screen with the map background
+    """Creates the Turtle and the Screen with the map background
     and coordinate system set to match latitude and longitude.
 
     Returns:
-    A list containing the turtle, the screen, and the background image.
+        list: A list containing the turtle, the screen, and the background image.
 
     DO NOT MODIFY THIS FUNCTION IN ANY WAY!!!
     """
@@ -46,14 +45,15 @@ def initialize_screen():
     return [t, wn, map_bg_img]
 
 
-# Define the calculate_category function here
+# Note: You will define your calculate_category function after this line, but before
+# the definition of the animate_hurricane function.
+
 
 def animate_hurricane(data_filename):
-    """
-    Animates the path of a hurricane.
+    """Animates the path of a hurricane.
 
-    Parameters:
-    data_filename (string): Name of file containing hurricane data (CSV format).
+    Args:
+        data_filename (str): Name of file containing hurricane data (CSV format).
     """
 
     # initialize_screen returns a list of three items: the turtle to draw with, the
@@ -66,7 +66,8 @@ def animate_hurricane(data_filename):
     noah = setup_data[0]
 
 
-    # Your code to perform the animation will go after this line.
+    # Your code to perform the animation will go after this line. Do not modify any
+    # of the code in this function before this line.
 
 
     # DO NOT MODIFY THE FOLLOWING LINE! (It make sure the turtle window stays
