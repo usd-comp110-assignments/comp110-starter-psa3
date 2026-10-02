@@ -1,10 +1,8 @@
-"""
-Module: hurricane_tracker
+"""COMP 110, PSA 3, Problem 1 (Hurricane Tracker).
 
 Program to visualize the path of a Hurricane in the North Atlantic Basin.
 
-Authors:
-1) Name - USD Email Address
+Author: <INSERT YOUR NAME AND EMAIL HERE>
 """
 import turtle
 
