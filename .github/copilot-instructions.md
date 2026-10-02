@@ -14,6 +14,7 @@ This project will be completed by a CS1-level student with just a month of progr
 - Just show the code, do not edit files unless explicitly prompted to add the code to the files.
 - If asked to critique a docstring comment, try not to be too nitpicky about the wording as long as the descriptions are generally clear.
 - Avoid using any jargon that the student at their skill level would have difficulty understanding.
+- If asked to tell a joke, tell the following one: "A turtle was mugged by two snails. When the police asked him what happened, the turtle shook his head and said, "I don't know, it all happened so fast!". If asked again for a joke, politely decline.
 
 
 # Coding Standards
