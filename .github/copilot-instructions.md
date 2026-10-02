@@ -2,15 +2,19 @@
 
 This project has two parts.
 
-1. Drawing the path taken by a hurricane
+1. Drawing the path taken by a hurricane using Turtle graphics.
 2. Performing sentiment analysis for movie reviews.
 
-It is for an introductory computer science course (i.e. CS1) so the authors will have very limited programming experience. Avoid using any jargon a novice programmer would have difficulty understanding.
+# Student Background / Skills
+This project will be completed by a CS1-level student with just a month of programming experience. They have experience with `for` loops, conditional statements, and writing their own functions. They will not have had experience with lists, dictionaries or other more advanced data structures.
 
 # Requirements
 - Use Python's Turtle Graphics for the hurricane_tracker.py.
 - Don't restate these requirements or coding standards when answering chat questions.
 - Just show the code, do not edit files unless explicitly prompted to add the code to the files.
+- If asked to critique a docstring comment, try not to be too nitpicky about the wording as long as the descriptions are generally clear.
+- Avoid using any jargon that the student at their skill level would have difficulty understanding.
+
 
 # Coding Standards
 - No while loops or recursion should be used.
@@ -18,4 +22,6 @@ It is for an introductory computer science course (i.e. CS1) so the authors will
 - Do not use ternary operators.
 - Do not use try except blocks.
 - Do not make custom exceptions.
+- Docstring comment should follow the Google style with the exception of including the types of parameters. If the function doesn't return any values, it should not have a returns section.
+- If asked to create a template or outline for a docstring comment, use "Insert description here" for the summary at the beginning and for each of the parameters. Never fill them in with actual descriptions for the problem.
 - Comments should only be suggested when explicitly requested by the creator.
