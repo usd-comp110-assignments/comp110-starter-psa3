@@ -1,22 +1,19 @@
-"""
-Module: movie_sentiment
+"""COMP 110, PSA 3, Problem 2 (Sentiment Analysis).
 
 Program to analyze movie reviews and predict the sentiment of new reviews.
 
-Authors:
-1) Name - USD Email Address
+Author: <INSERT YOUR NAME AND EMAIL HERE>
 """
 
 def calculate_average_review(target_word, review_filename):
-    """
-    FIXME: Add function synopsis here.
+    """Insert a one-sentence description of the function here.
 
-    Parameters:
-    target_word (type: string): The word to look for in the reviews.
-    FIXME: add info about second parameter
+    Args:
+        target_word (str): The word to look for in the reviews.
+        To Do: Add info about the other parameter.
 
     Returns:
-    (type: float) FIXME by describing what is returned here.
+        float: Insert a one-sentence description of the return value here.
     """
 
     review_file = open(review_filename, 'r')
@@ -37,26 +34,18 @@ def calculate_average_review(target_word, review_filename):
 
 
 def calculate_estimated_score(review_text, review_filename):
-    """
-    FIXME: Fill in this docstring comment, using the exact format given for the
-    average_review docstring comment.
-    """
-
     return None     # replace this with returning the estimated review
 
 
 
 def get_review_and_estimate():
-    """
-    Asks user to enter a movie review, then the name of a file with existing
-    movie reviews.
-    It then calculates the estimated rating of the review they entered, along
-    with a description of that rating (e.g. "neutral" or "slightly positive").
+    """Determines the estimated score of a user-entered movie review and indicates
+    the sentiment of that review (e.g. "positive").
     """
 
     pass # replace this line of code with your function implementation
 
 
-# Do not modify anything after this point.
+# DO NOT modify anything after this point.
 if __name__ == "__main__":
     get_review_and_estimate()
