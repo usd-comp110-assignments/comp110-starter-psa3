@@ -11,10 +11,10 @@ def initialize_screen():
     """Creates the Turtle and the Screen with the map background
     and coordinate system set to match latitude and longitude.
 
+    DO NOT MODIFY THIS FUNCTION IN ANY WAY!!!
+
     Returns:
         list: A list containing the turtle, the screen, and the background image.
-
-    DO NOT MODIFY THIS FUNCTION IN ANY WAY!!!
     """
 
     import tkinter
