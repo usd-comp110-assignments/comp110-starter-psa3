@@ -9,7 +9,7 @@ def calculate_average_review(target_word, review_filename):
     """Insert a one-sentence description of the function here.
 
     Args:
-        target_word (str): The word to look for in the reviews.
+        target_word: The word to look for in the reviews.
         To Do: Add info about the other parameter.
 
     Returns:
