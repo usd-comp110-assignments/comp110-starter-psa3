@@ -51,7 +51,7 @@ def animate_hurricane(data_filename):
     """Animates the path of a hurricane.
 
     Args:
-        data_filename (str): Name of file containing hurricane data (CSV format).
+        data_filename: Name of file containing hurricane data (CSV format).
     """
 
     # initialize_screen returns a list of three items: the turtle to draw with, the
