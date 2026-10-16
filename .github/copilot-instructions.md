@@ -19,6 +19,7 @@ This project will be completed by a CS1-level student with just a month of progr
 
 # Coding Standards
 - No while loops or recursion should be used.
+- Do not use with statements to open files.
 - Do not use list comprehension.
 - Do not use ternary operators.
 - Do not use try except blocks.
